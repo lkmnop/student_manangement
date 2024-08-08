@@ -2,7 +2,7 @@ import streamlit as st
 from pymongo import MongoClient
 import base64
 
-Mongo_URL="mongodb://localhost:27017/"
+Mongo_URL="mongodb+srv://San_enthu:Sandhya543@santest.fcbqy7z.mongodb.net/?retryWrites=true&w=majority&appName=santest"
 client=MongoClient(Mongo_URL)
 db=client["MyDB"]
 collection = db["std_data"] 
